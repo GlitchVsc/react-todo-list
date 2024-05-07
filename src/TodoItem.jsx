@@ -13,7 +13,7 @@ export function TodoItem( { id, completed , title, toggleTodo , deleteTodo  } ){
             </div>
             <button 
                 onClick={ () => deleteTodo(id)} 
-                className="text-red-300 bg-red-900">
+                className="text-red-400 bg-red-900">
                     Delete
             </button>
         </li>
